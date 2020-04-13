@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yum install git -y
+git clone https://github.com/pi-v/nginx-autoreload.git
+
+cd nginx-autoreload
+docker build -t nginx-auto:alpine .
