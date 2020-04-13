@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yum install wget git -y
+cd ~
+git clone https://github.com/pi-v/wordpress-install.git
+cd wordpress-install
+./install.sh
