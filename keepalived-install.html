@@ -1,0 +1,12 @@
+#!/bin/sh
+
+yum install -y wget openssl-devel gcc-g++
+wget https://www.keepalived.org/software/keepalived-2.0.20.tar.gz
+tar xf keepalived-2.0.20.tar.gz
+cd keepalived-2.0.20
+./configure
+make
+make install
+cp ./keepalived-2.0.20/keepalived/keepalived.service /usr/lib/systemd/system/
+systemctl daemon-reload
+systemctl enable keepalived
