@@ -8,3 +8,7 @@ curl -s https://pi-v.github.io/sh/wordpress_quick_install.html|bash
 ```sh
 curl -s https://pi-v.github.io/sh/autoreload_nginx_images.html|bash
 ```
+#### keepalived-2.0.20 快速安装,默认安装在/usr/local下,配置文件在/usr/local/etc/keepalived中
+```sh
+curl -s https://pi-v.github.io/sh/keepalived-install.html|bash
+```
