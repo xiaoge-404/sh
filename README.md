@@ -12,3 +12,7 @@ curl -s https://pi-v.github.io/sh/autoreload_nginx_images.html|bash
 ```sh
 curl -s https://pi-v.github.io/sh/keepalived-install.html|bash
 ```
+#### 快速部署helm,官方一键安装!
+```sh
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+```
